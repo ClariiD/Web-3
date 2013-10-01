@@ -32,6 +32,7 @@
   background-repeat: none;
   background-color: #fff;
   top: 0;
+  padding-bottom: 12px;
 }
 
 .header-left {
@@ -90,13 +91,13 @@
   font-family: 'comic_bookregular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   font-color: #000;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #side-nav {
   float: right;
   margin-top: -68em;
-  margin-right: 16em;
+  margin-right: 12em;
 }
 
 #side-nav li {
@@ -169,7 +170,7 @@ a:active {
 }
 
 .text1 {
-  width: 30%;
+  width: 45%;
   height: 116%;
   text-align: justify;
   margin-left: 5em;
@@ -202,14 +203,14 @@ a:active {
 
 .image1 {
   float: right;
-  margin-top: -90em;
-  margin-right: 30em;
+  margin-top: -92em;
+  margin-right: 18em;
 }
 
 .image2 {
   float: right;
   margin-top: -85em;
-  margin-right: 20em;
+  margin-right: 12em;
 }
 
 .image3 {
@@ -352,6 +353,7 @@ h1 {
   font-family: 'comic_bookregular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
   color: #000;
+  font-size: 17px;
   top: 0;
 }
 
@@ -359,13 +361,13 @@ h2 {
   font-family: 'comic_bookregular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
   color: #eb3f00 !important;
-  font-size: 16px;
+  font-size: 17px;
   padding-bottom: 1em;
 }
 
 p {
   font-family: 'berthold_akzidenz_grotesk_bRg', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-color: #000;
   text-align: justify;
   line-height: 120%;
@@ -375,7 +377,7 @@ p {
   .image1 {
     float: right;
     margin-top: -90em;
-    margin-right: 16em;
+    margin-right: 10em;
   }
 
   .image2 {
@@ -387,7 +389,7 @@ p {
 @media only screen and (max-width: 885px) {
   #nav li {
     display: block;
-    padding-bottom: 1em;
+    padding-bottom: 8px;
     text-decoration: none;
     list-style-type: none;
     cursor: pointer;
@@ -426,7 +428,7 @@ p {
     background-repeat: none;
     background-color: #fff;
     top: 0;
-    padding-bottom: 8px;
+    padding-bottom: 36px;
   }
 
   #side-nav {
@@ -437,8 +439,8 @@ p {
 
   .image1 {
     float: right;
-    margin-top: -84em;
-    margin-right: 12em;
+    margin-top: -86em;
+    margin-right: 6em;
   }
 
   .image2 {
@@ -501,7 +503,7 @@ p {
 @media only screen and (max-width: 780px) and (max-width: 840px) {
   #nav li {
     display: block;
-    padding-bottom: 1em;
+    padding-bottom: 8px;
     text-decoration: none;
     list-style-type: none;
     cursor: pointer;
@@ -533,7 +535,7 @@ p {
     background-repeat: none;
     background-color: #fff;
     top: 0;
-    padding-bottom: 8px;
+    padding-bottom: 36px;
   }
 
   #side-nav {
@@ -544,8 +546,8 @@ p {
 
   .image1 {
     float: right;
-    margin-top: -85em;
-    margin-right: 8em;
+    margin-top: -86em;
+    margin-right: 2em;
   }
 
   .image2 {
@@ -629,6 +631,14 @@ p {
     color: #eb3f00;
   }
 
+  #wrapper-back {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+
   .header-right {
     position: absolute;
     margin-top: 210px;
@@ -686,7 +696,7 @@ p {
     background-repeat: none;
     background-color: #fff;
     top: 0;
-    padding-bottom: 8px;
+    padding-bottom: 36px;
   }
 
   #side-nav {
@@ -696,13 +706,13 @@ p {
   }
 
   .image1 {
-    margin-top: -111em;
+    margin-top: -114em;
     margin-right: 8em;
   }
 
   .image2 {
     float: right;
-    margin-top: -105em;
+    margin-top: -109em;
     margin-right: 1em;
   }
 
