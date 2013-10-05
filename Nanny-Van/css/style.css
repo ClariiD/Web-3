@@ -152,6 +152,7 @@ a:active {
 #wrapper-back {
   background-image: url(../img/background4.png);
   position: fixed;
+  display: none;
 }
 
 #wrapper-body {
@@ -251,6 +252,8 @@ a:active {
 .bottom {
   margin-top: 6em;
   float: left;
+  margin-bottom: 0;
+  left: 0;
 }
 
 .bottom-icons {
@@ -264,40 +267,44 @@ a:active {
   float: right;
   width: 400px;
   height: 30px;
-  margin-right: 7em;
+  margin-right: 11em;
+}
+
+.home img {
+  max-width: 100%;
 }
 
 .home-image1 {
   float: left;
   margin-left: 5em;
-  width: 10%;
+  width: 50%;
   height: 10%;
 }
 
 .home-text2 {
   float: left;
   margin-left: -35em;
-  width: 200px;
+  width: 400px;
   height: 53px;
-  margin-top: 33em;
+  margin-top: 30em;
 }
 
 .home-image2 {
   float: right;
-  margin-top: 2em;
-  margin-right: 5em;
+  margin-top: 12em;
+  margin-right: 10em;
 }
 
 .home-image3 {
   float: left;
-  margin-top: 17em;
-  margin-left: -11em;
+  margin-top: 38em;
+  margin-left: -20em;
 }
 
 .tour-gallery {
   float: left;
-  margin-top: 20em;
-  margin-left: -7em;
+  margin-top: 40em;
+  margin-left: -14em;
 }
 
 .tour-gallery li {
@@ -317,37 +324,37 @@ a:active {
 
 .home-image4 {
   float: left;
-  margin-top: 34em;
-  margin-left: -9em;
+  margin-top: 49em;
+  margin-left: -27em;
 }
 
 .home-image5 {
   float: left;
-  margin-top: 3em;
-  margin-left: 13em;
+  margin-top: 20em;
+  margin-left: 6em;
 }
 
 .home-image6 {
   float: left;
-  margin-top: 3em;
-  margin-left: 14em;
+  margin-top: 17em;
+  margin-left: 16em;
 }
 
 .home-image7 {
   float: left;
-  margin-top: 2em;
+  top: 0px;
   margin-left: 5em;
 }
 
 .home-image8 {
   float: left;
-  margin-top: 2em;
+  top: 0px;
   margin-left: 8em;
 }
 
 .home-image9 {
   float: left;
-  margin-top: 2em;
+  top: 0px;
   margin-left: 10em;
 }
 
@@ -431,6 +438,14 @@ p {
     background-color: #fff;
     top: 0;
     padding-bottom: 36px;
+  }
+
+  #wrapper-back {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
   }
 
   #side-nav {
@@ -546,6 +561,14 @@ p {
     margin-right: 4em;
   }
 
+  #wrapper-back {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+
   .image1 {
     float: right;
     margin-top: -126em;
@@ -614,6 +637,11 @@ p {
   #nav {
     margin-left: 2.3em;
     margin-top: 10em;
+    position: fixed !important;
+  }
+
+  #nav ul {
+    position: fixed !important;
   }
 
   #nav li {
@@ -646,7 +674,7 @@ p {
     position: relative;
     margin-top: -160px;
     margin-left: 280px;
-    margin-right: -28px;
+    margin-right: -25px;
     z-index: 10000;
   }
 
@@ -699,6 +727,7 @@ p {
     background-repeat: none;
     background-color: #fff;
     top: 0;
+    left: 0;
     padding-bottom: 30px;
   }
 
@@ -777,42 +806,62 @@ p {
     display: inline;
   }
 
+  .nannies-image3 {
+    float: right;
+    margin-top: 10em;
+    margin-right: 4em;
+  }
+
+  .nannies-image5 {
+    float: left;
+    margin-top: 64em;
+    margin-left: -31em;
+  }
+
+  .nannies-image6 {
+    float: right;
+    margin-top: -44em;
+    margin-right: 12em;
+  }
+
   .home-text1 {
     float: right;
     width: 400px;
     height: 30px;
-    margin-right: 7em;
+    margin-right: 3em;
+    margin-top: 20em;
   }
 
   .home-image1 {
-    float: left;
-    margin-left: 5em;
+    float: right;
+    margin-right: 2em;
+    margin-top: 9em;
   }
 
   .home-text2 {
     float: left;
-    margin-left: -35em;
+    margin-left: 4em;
     width: 200px;
     height: 53px;
-    margin-top: 33em;
+    margin-top: 10em;
   }
 
   .home-image2 {
     float: right;
-    margin-top: 2em;
-    margin-right: 5em;
+    margin-top: 16em;
+    margin-right: 7em;
   }
 
   .home-image3 {
-    float: left;
-    margin-top: 17em;
-    margin-left: -11em;
+    float: right;
+    top: -5em;
+    margin-right: -14em;
   }
 
   .tour-gallery {
-    float: left;
-    margin-top: 20em;
-    margin-left: -7em;
+    float: right;
+    margin-top: 1em;
+    margin-right: 2em;
   }
 
   .tour-gallery li {
@@ -832,32 +881,32 @@ p {
 
   .home-image4 {
     float: left;
-    margin-top: 34em;
-    margin-left: -9em;
+    margin-top: 4em;
+    margin-left: 7em;
   }
 
   .home-image5 {
     float: left;
-    margin-top: 3em;
-    margin-left: 13em;
+    margin-top: 26em;
+    margin-left: -5em;
   }
 
   .home-image6 {
     float: left;
-    margin-top: 3em;
-    margin-left: 14em;
+    margin-top: 46em;
+    margin-left: -10em;
   }
 
   .home-image7 {
-    float: left;
-    margin-top: 2em;
-    margin-left: 5em;
+    float: right;
+    margin-top: -42em;
+    margin-left: 22em;
   }
 
   .home-image8 {
-    float: left;
-    margin-top: 2em;
-    margin-left: 8em;
+    float: right;
+    margin-top: -21em;
+    margin-right: 18em;
   }
 
   .home-image9 {
