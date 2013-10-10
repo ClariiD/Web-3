@@ -518,131 +518,20 @@ p {
   }
 }
 @media only screen and (max-width: 780px) and (max-width: 840px) {
-  #nav li {
-    display: block;
-    padding-bottom: 8px;
-    text-decoration: none;
-    list-style-type: none;
-    cursor: pointer;
-    font-family: 'comic_bookregular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-    font-color: #000;
-    width: 30%;
-  }
-
-  #nav li:hover {
-    text-decoration: none;
-    list-style-type: none;
-    color: #eb3f00;
-  }
-
-  .header-right {
-    position: absolute;
-    margin-top: 210px;
-    margin-left: 260px;
-    margin-right: 10px;
-  }
-
-  #fixed-nav {
-    position: fixed;
-    width: 100%;
-    height: 20%;
-    z-index: 10;
-    background-image: url(../img/background4.png);
-    background-repeat: none;
-    background-color: #fff;
-    top: 0;
-    padding-bottom: 36px;
-  }
-
-  #side-nav {
-    float: right;
-    margin-top: -14em;
-    margin-right: 4em;
-  }
-
-   #wrapper-back{
-    display:none;
-  }
-
-  .bottom{
-    display:none;
-  }
-
-  .image1 {
-    float: right;
-    margin-top: -126em;
-    margin-right: 18em;
-  }
-
-  .image2 {
-    float: right;
-    margin-top: -118em;
-    margin-right: 13em;
-  }
-
-  .image3 {
-    float: right;
-    margin-top: 1em;
-    margin-right: 4em;
-  }
-
-  .image4 {
-    float: left;
-    margin-top: 6em;
-    margin-left: 6em;
-  }
-
-  .image5 {
-    float: left;
-    margin-top: 44em;
-    margin-left: -30em;
-  }
-
-  .text1 {
-    width: 60%;
-    height: 106%;
-    text-align: justify;
-    margin-left: 4.5em;
-    margin-top: 16em;
-    border-bottom: 3px;
-    border-style: dotted;
-    border-color: #000;
-  }
-
-  .text2 {
-    width: 60%;
-    height: 36%;
-    text-align: justify;
-    margin-left: 4.5em;
-    border-bottom: 3px;
-    border-style: dotted;
-    border-color: #000;
-    margin-top: 1em;
-  }
-
-  .text3 {
-    width: 60%;
-    height: 36%;
-    text-align: justify;
-    margin-left: 4.5em;
-    border-bottom: 3px;
-    border-style: dotted;
-    border-color: #000;
-    margin-top: 1em;
-  }
-}
-
-/* media query for mobile */
-@media only screen and (max-width: 666px) {
-  #nav {
+ #nav {
     margin-left: 2.3em;
     margin-top: 10em;
-    position: fixed !important;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
   }
 
   #nav ul{
-    position: fixed !important;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
   }
 
   #nav li {
@@ -720,7 +609,188 @@ p {
   }
 
   #fixed-nav {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    width: 100%;
+    height: 45%;
+    z-index: 10;
+    background-image: url(../img/background4.png);
+    background-repeat: none;
+    background-color: #fff;
+    top: 0;
+    left:0;
+    padding-bottom: 30px;
+  }
+
+  #side-nav {
+    float: right;
+    margin-top: -84em;
+    margin-right: 5em;
+  }
+
+  .image1 {
+    float: right;
+    margin-top: -126em;
+    margin-right: 18em;
+  }
+
+  .image2 {
+    float: right;
+    margin-top: -118em;
+    margin-right: 13em;
+  }
+
+  .image3 {
+    float: right;
+    margin-top: 1em;
+    margin-right: 4em;
+  }
+
+  .image4 {
+    float: left;
+    margin-top: 6em;
+    margin-left: 6em;
+  }
+
+  .image5 {
+    float: left;
+    margin-top: 44em;
+    margin-left: -30em;
+  }
+
+  .text1 {
+    width: 60%;
+    height: 106%;
+    text-align: justify;
+    margin-left: 4.5em;
+    margin-top: 16em;
+    border-bottom: 3px;
+    border-style: dotted;
+    border-color: #000;
+  }
+
+  .text2 {
+    width: 60%;
+    height: 36%;
+    text-align: justify;
+    margin-left: 4.5em;
+    border-bottom: 3px;
+    border-style: dotted;
+    border-color: #000;
+    margin-top: 1em;
+  }
+
+  .text3 {
+    width: 60%;
+    height: 36%;
+    text-align: justify;
+    margin-left: 4.5em;
+    border-bottom: 3px;
+    border-style: dotted;
+    border-color: #000;
+    margin-top: 1em;
+  }
+}
+
+/* media query for mobile */
+@media only screen and (max-width: 666px) {
+  #nav {
+    margin-left: 2.3em;
+    margin-top: 10em;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+  }
+
+  #nav ul{
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+  }
+
+  #nav li {
+    display: inline-block;
+    padding-bottom: 4px;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    font-family: 'comic_bookregular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-color: #000;
+    width: 30%;
+  }
+
+  #nav li:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: #eb3f00;
+  }
+
+  #wrapper-back{
+    display:none;
+  }
+
+  .bottom{
+    display:none;
+  }
+
+  .header-right {
+    position: relative;
+    margin-top: -160px;
+    margin-left: 276px;
+    margin-right: -25px;
+    z-index: 10000;
+  }
+
+  .header-right li {
+    display: inline;
+    position: relative;
+  }
+
+  .sharing {
+    float: right;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-color: #000;
+    font-size: 11px;
+    position: relative;
+  }
+
+  .facebook {
+    margin-right: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    position: relative;
+  }
+
+  .header-left {
+    margin-left: 1em;
+  }
+
+  #wrapper-body {
+    background-image: url(../img/background4.png);
+    width: 100%;
+    height: 100%;
+    margin-top: 2em;
     position: fixed;
+  }
+
+  #wrapper-text-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 25%;
+  }
+
+  #fixed-nav {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
     width: 100%;
     height: 45%;
     z-index: 10;
@@ -827,42 +897,42 @@ p {
 
   .home-text1 {
     float: right;
-    width: 400px;
+    width: 340px;
     height: 30px;
-    margin-right: 3em;
+    margin-right: 2em;
     margin-top: 20em;
   }
 
   .home-image1 {
-    float: right;
-    margin-right: 2em;
+    float: left;
+    margin-left: 0em;
     margin-top: 9em;
   }
 
   .home-text2 {
     float: left;
-    margin-left: 4em;
-    width: 200px;
+    margin-left: 3em;
+    width: 300px;
     height: 53px;
-    margin-top: 10em;
+    margin-top: 16em;
   }
 
   .home-image2 {
     float: right;
-    margin-top: 16em;
-    margin-right: 7em;
+    margin-top: 10em;
+    margin-right: -1em;
   }
 
   .home-image3 {
     float: right;
-    top: -5em;
-    margin-right: -14em;
+    margin-top: 30em;
+    margin-right: -7em;
   }
 
   .tour-gallery {
     float: right;
-    margin-top: 1em;
-    margin-right: 2em;
+    margin-top: 32em;
+    margin-right: -14em;
   }
 
   .tour-gallery li {
@@ -882,14 +952,14 @@ p {
 
   .home-image4 {
     float: left;
-    margin-top: 4em;
+    margin-top: 7em;
     margin-left: 7em;
   }
 
   .home-image5 {
     float: left;
-    margin-top: 26em;
-    margin-left: -5em;
+    margin-top: 17em;
+    margin-left: 6em;
   }
 
   .home-image6 {
@@ -899,20 +969,37 @@ p {
   }
 
   .home-image7 {
-    float: right;
-    margin-top: -42em;
-    margin-left: 22em;
+    float: left;
+    margin-top: -55em;
+    margin-left: 3em;
   }
 
   .home-image8 {
     float: right;
-    margin-top: -21em;
-    margin-right: 18em;
+    margin-top: -29em;
+    margin-right: 6em;
   }
 
   .home-image9 {
     float: left;
-    margin-top: 2em;
-    margin-left: 10em;
+    margin-top: 0em;
+    margin-left: 4em;
+  }
+
+  .nannies-image3 {
+    margin-top: -95em;
+    margin-left: 5em;
+  }
+
+  .nannies-image5 {
+    float: right;
+    margin-top: -70em;
+    margin-right: -1em;
+  }
+
+  .nannies-image6 {
+    float: right;
+    margin-top: -44em;
+    margin-right: -1em;
   }
 }
