@@ -1,0 +1,228 @@
+#wrapper{
+	height: 50%;
+	width: 100%;
+	z-index: 1;
+	margin-top: 0;
+}
+#wrapper2{
+	height: 150%;
+	width: 100%;
+	z-index: 1;
+	background-color: #000;
+	margin-top: 65em;
+	position: absolute;
+}
+
+img{
+	position: absolute;
+	top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#type{
+	float: left;
+	width: 50%;
+	height: 50%;
+	text-align: justify;
+	font: 14px Verdana;
+	margin-top: 280px;
+	margin-left: 15px;
+}
+
+#photo{
+	float: left;
+	margin-top: 280px;
+	margin-left: 25px;
+
+}
+
+.photo{
+	margin-top: 550px;
+	margin-left: 20px;
+}
+
+.photo2{
+	margin-top: 603px;
+	margin-left: 20px;
+}
+
+p{
+	display: block;
+
+}
+
+#Map{
+	margin-top: 10em;
+	margin-left: 390px;
+	z-index: 10;
+	position: absolute;
+}
+
+#Lectures{
+	margin-top: 20px;
+	margin-left: 30px;
+	z-index: 20;
+}
+
+.LecturesLink{
+	/*position: relative;
+	display: block;*/
+	margin-top: 257px;
+	margin-left: 10px;
+	z-index: 20;
+	background: url(../img/blank.png);
+}
+
+/*#Lectures a:link{background: url(../img/lectures1.png);}*/
+.LecturesLink:hover{
+	/*position: relative;
+	/*display: block;*/
+	margin-top: 257px;
+	margin-left: 10px;
+	background: url(../img/hack.png);
+	width:100%;
+	background-repeat:no-repeat;
+}
+
+#Initiatives{
+	margin-top: 20px;
+	margin-left: 30px;
+	z-index: 30;
+}
+
+
+.InitiativesLink{
+	margin-top: 287px;
+	margin-left: 10px;
+	z-index: 30;
+	background: url(../img/blank.png);
+}
+
+.InitiativesLink:hover{
+	margin-top: 287px;
+	margin-left: 10px;
+	background: url(../img/taxiid.png);
+	width:100%;
+	background-repeat:no-repeat;
+}
+
+#Publications{
+	margin-top: 20px;
+	margin-left: 30px;
+	z-index: 40;
+}
+
+.PublicationsLink{
+	margin-top: 305px;
+	margin-left: 10px;
+	z-index: 40;
+	background: url(../img/blank.png);
+}
+
+.PublicationsLink:hover{
+	margin-top: 305px;
+	margin-left: 10px;
+	background: url(../img/date.png);
+	width:100%;
+	background-repeat:no-repeat;
+}
+
+#Contact{
+	margin-top: 20px;
+	margin-left: 30px;
+	z-index: 50;
+}
+
+.ContactLink{
+	margin-top: 390px;
+	margin-left: 10px;
+	z-index: 50;
+	background: url(../img/blank.png);
+}
+
+.ContactLink:hover{
+	margin-top: 390px;
+	margin-left: 10px;
+	background: url(../img/miles.png);
+	width:100%;
+	background-repeat:no-repeat;
+}
+
+#About{
+	margin-top: 20px;
+	margin-left: 30px;
+	z-index: 60;
+}
+
+.AboutLink{
+	margin-top: 445px;
+	margin-left: 10px;
+	z-index: 60;
+	background: url(../img/blank.png);
+}
+
+.AboutLink:hover{
+	margin-top: 445px;
+	margin-left: 10px;
+	background: url(../img/fare.png) ;
+	width:100%;
+	background-repeat:no-repeat;
+}
+
+.MyLink{
+	margin-top: 705px;
+	margin-left: 10px;
+	z-index: 60;
+	background: url(../img/blank.png);
+}
+
+.MyLink:hover{
+	margin-top: 576px;
+	margin-left: 10px;
+	background: url(../img/card.png);
+	width:100%;
+	background-repeat:no-repeat;
+}
+#AboutBertha{
+	margin-top: 20px;
+	margin-left: 30px;
+	z-index: 60;
+}
+
+.AboutBerthaLink{
+	margin-top: 445px;
+	margin-left: 10px;
+	z-index: 60;
+	background: url(../img/blank.png);
+}
+
+.AboutBerthaLink:hover{
+	margin-top: 420px;
+	margin-left: 0px;
+	background: url(../img/bertha1.png) ;
+	width:100%;
+	background-repeat:no-repeat;
+}
+
+#MyBertha{
+	margin-top: 20px;
+	margin-left: 30px;
+	z-index: 60;
+}
+
+.MyBerthaLink{
+	margin-top: 705px;
+	margin-left: 10px;
+	z-index: 60;
+	background: url(../img/blank.png);
+}
+
+.MyBerthaLink:hover{
+	margin-top: 548px;
+	margin-left: 0px;
+	background: url(../img/berth.png);
+	width:100%;
+	background-repeat:no-repeat;
+}
+
