@@ -46,9 +46,9 @@
 	 --><!-- <span class='mytag1'>testing the css</span> -->
 	<?
 
-	$mysql_host = "mysql3.000webhost.com";
-	$mysql_database = "a9945215_userin";
-	$mysql_user = "a9945215_admin";
+	$mysql_host = "mysql7.000webhost.com";
+	$mysql_database = "a9945215_nomad";
+	$mysql_user = "a9945215_nomad";
 	$mysql_password = "cdiaz45;
 
 	$link = mysql_connect($mysql_host, $mysql_user, $mysql_password);
