@@ -3,7 +3,7 @@
 $mysql_host = "mysql3.000webhost.com";
 $mysql_database = "a9945215_userin";
 $mysql_user = "a9945215_admin";
-$mysql_password = "7UK8210";
+$mysql_password = "cdiaz45";
 
 $link = mysql_connect($mysql_host, $mysql_user, $mysql_password);
 mysql_select_db($mysql_database);
