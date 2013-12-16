@@ -34,7 +34,7 @@
 		font-family:Arial;
 		font-weight: 200;
 		font-size: x-large;
-		color: white;
+		color: black;
 	}
 </style>
 </head>
@@ -42,8 +42,7 @@
 <body>
 	<div id="main"> 
 	<link rel="apple-touch-icon" href="images/apple-touch-icon2.png">
-	<!-- <img src="images/.png" />
-	 --><!-- <span class='mytag1'>testing the css</span> -->
+
 	<?
 
 	$mysql_host = "mysql7.000webhost.com";
@@ -54,7 +53,7 @@
 	$link = mysql_connect($mysql_host, $mysql_user, $mysql_password);
 
 	if($_POST["userText"]){
-		$query = "insert into $mysql_database.user_form (id, first, today) values (null, '" . $_POST["userText"] ."', now())";
+		$query = "insert into $mysql_database.user_form (id, response, today) values (null, '" . $_POST["userText"] ."', now())";
 			$res = mysql_query($query); 
 	/* 		print_r($res); */
 			
@@ -79,11 +78,11 @@
 	for ($i=0; $i<$nb; $i++ ){
 		
 		$id = mysql_result($res, $i, 'id');
-		$first = mysql_result($res, $i, 'first');
+		$response = mysql_result($res, $i, 'response');
 		$date = mysql_result($res, $i, 'today');
 		
 		//row header
-		echo "<li>$first</li>";
+		echo "<li>$response</li>";
 
 	}
 		echo "</ul>";
@@ -93,7 +92,7 @@
 	//row header
 	echo "<tr>";
 	echo "<td bgcolor='yellow'>ID</td>";
-	echo "<td bgcolor='yellow'>first name</td>";
+	echo "<td bgcolor='yellow'>response name</td>";
 	echo "<td bgcolor='yellow'>Date </td>";
 	echo "</tr>";
 
@@ -101,13 +100,13 @@
 
 		
 		$id = mysql_result($res, $i, 'id');
-		$first = mysql_result($res, $i, 'first');
+		$response = mysql_result($res, $i, 'response');
 		$date = mysql_result($res, $i, 'today');
 		
 		//row header
 		echo "<tr>";
 		echo "<td>$id</td>";
-		echo "<td>$first</td>";
+		echo "<td>$response</td>";
 		echo "<td>$date</td>";
 		echo "</tr>";
 
@@ -116,7 +115,7 @@
 	*/
 
 	?>
-	
+
 	<p>Input your text here:</p>
 	<form action="" method="post">
 	<textarea name="userText"></textarea>

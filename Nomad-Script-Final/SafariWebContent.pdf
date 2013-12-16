@@ -97,6 +97,8 @@ if($_GET['dir']) {
 	}
 }
 
+
+
 $opendir = $leadon;
 if(!$leadon) $opendir = '.';
 if(!file_exists($opendir)) {
