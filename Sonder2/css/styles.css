@@ -199,27 +199,17 @@ nav {
   float: left;
 }
 #bertha .story-img {
-  background: url(../imgs/intrvws/b4.jpg) no-repeat;
-}
-#identity .story-img {
-  background: url(../imgs/intrvws/b1.jpg) no-repeat;
+  background: url(../imgs/web-color-bertha-shrink.png) no-repeat;
 }
 
 #gong .story-img {
-  background: url(../imgs/intrvws/2n.jpg) no-repeat;
+  background: url(../imgs/web-color-gong-shrink.png) no-repeat;
 }
 
 #sadar .story-img {
-  background: url(../imgs/intrvws/1n.jpg) no-repeat;
+  background: url(../imgs/web-color-sadar-shrink.png) no-repeat;
 }
 
-#start .story-img {
-  background: url(../imgs/intrvws/1o.jpg) no-repeat;
-}
-
-#connections .story-img {
-  background: url(../imgs/intrvws/2o.jpg) no-repeat;
-}
 .slider-play-btn {
   position: absolute;
   top: 0;
@@ -455,6 +445,22 @@ footer a:hover{
   margin-top: 10em;
 }
 .chapter-1{
+  font-family: courier, serif;
+  margin-top: 10em;
+}
+.chapter-2{
+  font-family: courier, serif;
+  margin-top: 10em;
+}
+.chapter-3{
+  font-family: courier, serif;
+  margin-top: 10em;
+}
+.conclusion{
+  font-family: courier, serif;
+  margin-top: 10em;
+}
+.process{
   font-family: courier, serif;
   margin-top: 10em;
 }
